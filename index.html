@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Galería y Registro</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Galería de Imágenes</h1>
+
+<div class="galeria">
+    <img src="https://picsum.photos/300/200?1">
+    <img src="https://picsum.photos/300/200?2">
+    <img src="https://picsum.photos/300/200?3">
+    <img src="https://picsum.photos/300/200?4">
+    <img src="https://picsum.photos/300/200?5">
+    <img src="https://picsum.photos/300/200?6">
+</div>
+
+<hr>
+
+<h2>Formulario de Registro</h2>
+
+<form id="registro">
+
+<label>RUN:</label>
+<input type="text" id="run" required>
+
+<label>Nombre:</label>
+<input type="text" id="nombre" required>
+
+<label>Fecha de Nacimiento:</label>
+<input type="date" id="fecha" required>
+
+<label>Sexo:</label>
+<select id="sexo">
+<option>Masculino</option>
+<option>Femenino</option>
+<option>Otro</option>
+</select>
+
+<label>Estado Civil:</label>
+<select id="estado">
+<option>Soltero</option>
+<option>Casado</option>
+<option>Divorciado</option>
+<option>Viudo</option>
+</select>
+
+<label>Comentario:</label>
+<textarea id="comentario"></textarea>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+<p id="mensaje"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

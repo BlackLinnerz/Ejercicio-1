@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+h1{
+    color:#333;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    width:70%;
+    margin:auto;
+}
+
+.galeria img{
+    width:100%;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+form{
+    width:300px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+input,select,textarea{
+    margin:5px 0 10px 0;
+    padding:8px;
+}
+
+button{
+    background:#3498db;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2980b9;
+}
+
+#mensaje{
+    color:green;
+    font-weight:bold;
+}
